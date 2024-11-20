@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Seatwork #2</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body{
+			background: url(https://wallpapercave.com/wp/wp1927677.jpg) no-repeat fixed center;
+		}
+		label{
+			color:white;
+		}
+		div{
+			background: darkblue;
+		}
+		.col-md-6{
+			padding: 10px;
+		}
+		h1{
+			border: blue dotted;
+		}
+	</style>
+
+</head>
+<body>
+	<h1 style="text-align: center; color: white;">ROBOTICS CLUB FORM</h1>
+	<br>
+	<div class="container">
+		<form><div class="row">
+
+		<div class="col-md-6">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control">
+		</div>
+
+		<div class="col-md-6">
+			<label for="grade and section">Grade and Section:</label>
+			<input type="text" class="form-control">
+		</div>
+
+		<br>
+
+		<div class="col-md-6">
+			<label for="email">Email:</label>
+			<input type="email" class="form-control">
+		</div>
+
+		<div class="col-md-6">
+			<label for="phone number">Phone Number:</label>
+			<input type="password" class="form-control">
+		</div>
+	</form>
+
+		<div class="col-md-6">
+		<form>
+		<br><br>
+			<p style="color:white;">Whats your skill level when it comes to ICT?</p>
+			<input type="radio" id="Bad" name="skill level" value="Bad">
+		  <label for="Bad">Still bad at ICT</label><br>
+		  <input type="radio" id="good" name="skill level" value="electronics">
+		  <label for="electronics">I know some tags and topics</label><br>
+		  <input type="radio" id="Best" name="skill level" value="Best">
+		  <label for="Best">I'm the top student in ICT!</label>
+		</form>
+		</div>
+
+	<div class="col-md-6">
+		<form>
+			<br><br>
+			<p style="color: white;">Preferred Robotics topics</p>
+			<input type="checkbox" id="programming" name="robotics topic" value="Bike">
+  <label for="programming"> Programming</label><br>
+  <input type="checkbox" id="electronics" name="robotics topic" value="Car">
+  <label for="electronics"> Electronics</label><br>
+  <input type="checkbox" id="mechanical design" name="robotics topic" value="Boat">
+  <label for="mechanical design"> Mechanical Design</label>
+		</form>
+	</div>
+
+
+	<div class="col-md-6">
+		<br><br>
+		<label for="reason">Why do you wanna join the club? State your reasons here.</label>
+		<textarea rows="4" cols="30" placeholder="Type your answer here..." class="form-control"></textarea>
+	</div>
+
+	<div>
+		<button class="btn btn-danger">Submit</button>
+	</div>
+</form>
+</div>
+
+</body>
+</html>
